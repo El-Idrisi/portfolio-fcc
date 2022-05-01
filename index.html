@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/output.css">
+    <script src="https://kit.fontawesome.com/bd2b93a447.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header"
+        class="bg-transparent fixed bg-gray-700  top-0 left-0 w-full flex items-center z-10 py-4 transition duration-100 lg:py-0">
+        <div class="container w-full">
+
+            <div class="flex items-center justify-between relative pl-4">
+                <div class="px-4 w-full">
+                    <h2
+                        class="pl-2 transition duration-300 text-slate-100 font-cursive text-2xl group-hover:text-teal-500">
+                        El-Idrisi</h2>
+                </div>
+
+                <div class="flex items-center px-4">
+                    <button class="block absolute right-4 lg:hidden" id="hambuger">
+                        <span class="hambuger-line origin-top-left"></span>
+                        <span class="hambuger-line"></span>
+                        <span class="hambuger-line origin-bottom-left"></span>
+                    </button>
+                </div>
+
+                <nav id="navbar"
+                    class="hidden absolute py-5 bg-gray-800 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:rounded-none lg:shadow-none">
+                    <ul class="block lg:flex">
+                        <li class="group">
+                            <a href="#welcome-section" class="nav-link">About</a>
+                        </li>
+                        <li class="group">
+                            <a href="#projects" class="nav-link ">Projects</a>
+                        </li>
+                        <li class="group">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    <!-- Header -->
+
+    <section id="welcome-section" class=" bg-stone-700">
+        <div
+            class="container text-center flex flex-col items-center justify-center relative left-1/2 -translate-x-1/2 h-screen">
+            <h1 class="text-5xl text-slate-100 font-bold tracking-wide mb-2 md:text-6xl lg:text-7xl">Hello, I am
+                El-Idrisi</h1>
+            <h3 class="text-3xl text-teal-300 md:text-4xl lg:text-5xl">I am Web Developer</h3>
+        </div>
+    </section>
+
+    <section id="projects" class="pt-36 pb-32 bg-blue-900">
+
+        <div class="w-full p-4">
+            <div class="flex flex-col items-center justify-center">
+                <h2 class="text-slate-100 text-4xl font-semibold mb-4">Projects</h2>
+                <h4 class="text-slate-100 text-base text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Dolor quae quia delectus veniam doloremque eum.</h4>
+            </div>
+        </div>
+
+        <div class="flex flex-wrap">
+
+            <div class="w-full px-8 md:w-1/2 lg:1/3">
+                <div class="project-tile">
+                    <img src="dist/portfolio/thumbnail_1.jpg" alt="" class="w-full">
+                    <div class="py-8 px-6">
+                        <a href="https://el-idrisi.github.io/technical-documentation" target="_blank">
+                            <h3 class="block mb-3 font-semibold text-xl text-stone-800 hover:text-green-500 truncate">
+                                Tachnical Documentation Free Code Camp
+                            </h3>
+                        </a>
+                        <p class="text-base font-medium text-zinc-500 mb-3">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Dolor eaque, accusantium nulla ab voluptatem laborum.</p>
+                        <a href="#"
+                            class="bg-emerald-500 text-white py-2 px-4 rounded-md shadow-lg font-semibold tracking-wide hover:bg-opacity-80">See
+                            More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full px-8 md:w-1/2 lg:1/3">
+                <div class="project-tile">
+                    <img src="dist/portfolio/thumbnail_3.jpg" alt="" class="w-full">
+                    <div class="py-8 px-6">
+                        <a href="#">
+                            <h3 class="block mb-3 font-semibold text-xl text-stone-800 hover:text-green-500 truncate">
+                                Landing Page Free Code Camp
+                            </h3>
+                        </a>
+                        <p class="text-base font-medium text-zinc-500 mb-3">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Dolor eaque, accusantium nulla ab voluptatem laborum.</p>
+                        <a href="https://el-idrisi.github.io/Landing-Page-FreeCodeCamp/" target="_blank"
+                            class="bg-emerald-500 text-white py-2 px-4 rounded-md shadow-lg font-semibold tracking-wide hover:bg-opacity-80">See
+                            More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full px-8 md:w-1/2 lg:1/3">
+                <div class="project-tile">
+                    <img src="dist/portfolio/thumbnail_4.jpg" alt="" class="w-full">
+                    <div class="py-8 px-6">
+                        <a href="#">
+                            <h3 class="block mb-3 font-semibold text-xl text-stone-800 hover:text-green-500 truncate">
+                                Number guessing game with Python
+                            </h3>
+                        </a>
+                        <p class="text-base font-medium text-zinc-500 mb-3">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Dolor eaque, accusantium nulla ab voluptatem laborum.</p>
+                        <a href="https://github.com/El-Idrisi/menebak-angka-1-10" target="_blank"
+                            class="bg-emerald-500 text-white py-2 px-4 rounded-md shadow-lg font-semibold tracking-wide hover:bg-opacity-80">See
+                            More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full px-8 md:w-1/2 lg:1/3">
+                <div class="project-tile">
+                    <img src="dist/portfolio/thumbnail_2.png" alt="" class="w-full">
+                    <div class="py-8 px-6">
+                        <a href="#">
+                            <h3 class="block mb-3 font-semibold text-xl text-stone-800 hover:text-green-500 truncate">
+                                Rock Paper Scissors
+                            </h3>
+                        </a>
+                        <p class="text-base font-medium text-zinc-500 mb-3">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Dolor eaque, accusantium nulla ab voluptatem laborum.</p>
+                        <a href="https://el-idrisi.github.io/rock-paper-scissors/" target="_blank"
+                            class="bg-emerald-500 text-white py-2 px-4 rounded-md shadow-lg font-semibold tracking-wide hover:bg-opacity-80">See
+                            More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact" class="pt-36 pb-32 bg-stone-600">
+
+        <div class="w-full p-4 text-center">
+            <h2 class="text-3xl font-bold text-slate-100 md:text-4xl">Contact Me</h2>
+        </div>
+
+        <div class="w-full p-4 relative md:w-2/3 md:-translate-x-1/2 md:left-1/2">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <div class="mb-8 w-full px-4">
+                    <label for="nama" class="text-xl text-teal-500 font-bold">Nama</label>
+                    <input id="nama" type="text" name="nama" required
+                        class="w-full rounded-md bg-slate-200 p-3 text-gray-800 focus:border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                        placeholder="Enter Your Name">
+                </div>
+                <div class="mb-8 w-full px-4">
+                    <label for="email" class="text-xl text-teal-500 font-bold">Email</label>
+                    <input id="email" type="email" name="email" required
+                        class="w-full rounded-md bg-slate-200 p-3 text-gray-800 focus:border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                        placeholder="Enter Your Email">
+                </div>
+                <div class="mb-8 w-full px-4">
+                    <label for="message" class="text-xl text-teal-500 font-bold">Messages</label>
+                    <textarea name="message" id="message" cols="30" rows="5"
+                        class="w-full rounded-md bg-slate-200 p-3 text-gray-800 focus:border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500">Enter Your Messages</textarea>
+                </div>
+                <div class="w-full px-4">
+                    <input id="submit" type="submit" value="Get Started"
+                        class="w-full text-gray-100 bg-teal-500 py-2 rounded-full text-base font-bold tracking-wider">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white">
+        <div class="w-full p-4">
+
+            <div class="my-4 flex flex-row items-center justify-center">
+                <a id="profile-link" href="https://github.com/El-Idrisi" target="_blank"
+                    class="text-white hover:text-teal-500 mr-4 py-2 px-1 border-2 border-slate-100 rounded-full hover:border-teal-500">
+                    <i class="fa-brands fa-github fa-2xl"></i>
+                </a>
+                <a href="#" target="_blank"
+                    class="text-white hover:text-teal-500 mr-4 py-2 px-1 border-2 border-slate-100 rounded-full hover:border-teal-500">
+                    <i class="fa-brands fa-youtube fa-2xl"></i>
+                </a>
+                <a href="#" target="_blank"
+                    class="text-white hover:text-teal-500 mr-4 py-2 px-1 border-2 border-slate-100 rounded-full hover:border-teal-500">
+                    <i class="fa-brands fa-twitter fa-2xl"></i>
+                </a>
+                <a href="#" target="_blank"
+                    class="text-white hover:text-teal-500 mr-4 py-2 px-1 border-2 border-slate-100 rounded-full hover:border-teal-500">
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                </a>
+
+            </div>
+            <div class="text-center mt-4">
+                <p class="">Dibuat dengan ❤️ oleh <span class="font-bold text-teal-500 hover:underline">Muhammad
+                        El-Idrisi</span>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="dist/script.js"></script>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+
+</html>
